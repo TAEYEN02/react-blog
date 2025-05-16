@@ -1,0 +1,21 @@
+.board-detail{
+    width: 50%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(27, 13, 13, 0.39);
+}
+ 
+.board-detail-title{
+    text-align: center;
+}
+p{
+    font-size: 12px;
+    color: gray;
+}
+.board-detail-body{
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.692);
+    padding: 20px 10px;
+}

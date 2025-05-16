@@ -1,0 +1,128 @@
+.board-container {
+    width: 50%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(27, 13, 13, 0.39);
+  }
+  
+  .board-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .board-button {
+    text-align: right;
+  }
+  
+  .board-button button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .board-button button:hover {
+    background-color: #2980b9;
+  }
+  
+  .board-posts {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;  
+  }
+  
+  .board-post-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #524b4b;
+  }
+  
+  .board-post-item a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+  }
+
+ .board-post-item {
+  position: relative;
+  padding-left: 30px; /* 체크박스 공간 확보 */
+}
+.board-post-item:active {
+  background-color: #d0d0d0; /* 눌린 느낌 배경색 */
+  transform: translateY(2px); /* 살짝 눌린 효과 */
+  transition: background-color 0.2s;
+}
+
+.board-post-item:hover input[type="checkbox"] {
+  opacity: 1;
+}
+  
+  .board-post-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .board-post-item span {
+    font-size: 12px;
+    color: #615a5a;
+    margin-left: 10px; /* 제목과 작성자 간 간격 줄임 */
+  }
+  
+  .board-posts-per-page {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .board-posts-per-page label {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .board-posts-per-page select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .board-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .board-pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .board-pagination button.selected {
+    background-color: #3498db;
+    color: #fff;
+    border-color: #3498db;
+  }
+  
+  .board-pagination button:hover {
+    background-color: #2980b9;
+    color: #fff;
+  }
+ 

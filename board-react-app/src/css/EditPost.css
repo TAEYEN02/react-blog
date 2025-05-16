@@ -1,0 +1,11 @@
+.board-detail{
+    width: 50%;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(27, 13, 13, 0.39);
+}
+h1{
+    text-align: center;
+}
